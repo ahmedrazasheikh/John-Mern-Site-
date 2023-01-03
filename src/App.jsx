@@ -9,6 +9,7 @@ import Contactus from './Components/Contact-us';
 import Contactuss from './Components/contactus';
 import Collection from './Components/collection';
 import ProductD from './Components/product-detail';
+import Subcription from './Components/subcription';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
 {/* <Collection/> */}
 {/* <Contactuss/> */}
     {/* <DashbordOrderAdmins/> */}
-    <ProductD/>
+    {/* <ProductD/> */}
+    <Subcription/>
     </div>
   );
 }
