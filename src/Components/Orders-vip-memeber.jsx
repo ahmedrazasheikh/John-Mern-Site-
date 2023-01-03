@@ -1,6 +1,5 @@
 import React from 'react'
 import './membership-vip-member.css';
-import '../App.css'
 import logo from '../assets/images/admin.png'
 const OrderVipMember = () => {
   return (
@@ -10,7 +9,7 @@ const OrderVipMember = () => {
 <div className="head flex flex-col  gjhas items-center	">
   <div className='flex  items-center'>
   <img src={logo} alt="" />
-  <div className="ss flex flex-col">
+  <div className="flex flex-col">
   <h3  className='text-2xl'>John Carter</h3> 
   <h5 className='ali text-blue-600 ' >ADMIN</h5>
   </div>
